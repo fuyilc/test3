@@ -5,7 +5,7 @@ import struct
 import numpy as np
 import pandas as pd
 
-
+print(111111)
 class Hdf5Parse(object):
     """
     这个类主要是读取HDF5文件并根据header里面的configuration解析各种传感器数据，包含header, GPS，CAN，IMU数据, 并返回各种解析之后的数据
